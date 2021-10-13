@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display {
+    display: flex;
+}
+
+.display .blurb {
+    display: flex;
+    flex-flow: column nowrap;
+}
