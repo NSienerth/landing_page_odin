@@ -3,18 +3,75 @@ body {
     flex-flow: column nowrap;
     flex: 1;
     height: 100vh;
+    font-family: sans-serif;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 16px;
+    background-color: #1F2937;
+}
+
+.left-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8
+}
+
+.right-text {
+    display: flex;
+    gap: 24px;
+}
+
+.header a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 .display {
+    background-color:#1F2937;
     display: flex;
+    justify-content: center;
+    gap: 16px;
+
 }
 
 .display .blurb {
     display: flex;
     flex-flow: column nowrap;
+    color: #f9faf8;
+    width: 400px;
+    justify-content: center;
+}
+
+.display .blurb h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.display .blurb p {
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.display .blurb button {
+    width: 136px;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight:500;
+}
+.icons {
+    display: flex;
+}
+
+.icons div {
+    display: flex;
+    flex-flow: column;
 }
