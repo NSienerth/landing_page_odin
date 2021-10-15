@@ -77,6 +77,8 @@ body {
     display: flex;
     flex-flow: column;
     align-items: center;
+    padding: 24px;
+    margin-bottom: 72px;
 }
 
 .info h1 {
@@ -95,6 +97,10 @@ body {
     flex-flow: column;
     width: 200px;
     padding: 16px;
+    gap: 16px;
+    color: #888;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 .icons img {
@@ -126,4 +132,53 @@ body {
     font-weight: 600;
     font-size: 18px;
     font-style:normal;
+}
+
+.sale {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px;
+}
+
+.sale .banner {
+    display:flex;
+    width: 600px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    gap: 16px;
+    padding: 48px;
+}
+
+.banner .text h2 {
+    color: #fff;
+    margin: 0;
+}
+
+.banner .text {
+    display: flex;
+    flex-flow: column;
+    width: 66%;
+    color: #fff;
+    gap: 8px;
+}
+
+.banner button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    border: 4px solid white;
+    width: 125px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 36px;
+    font-size: 18px;
 }
